@@ -38,7 +38,7 @@ img{
 
 
  }
- @media (max-width: 480px) {
+ @media  (min-width: 320px)and (max-width: 768px) {
     #main {
         width: 90%;
         height: auto;
@@ -63,4 +63,33 @@ img{
 
     }
     }}
+   
+ 
+ 
+      @media (min-width: 360px) and (max-width: 600px) {
+        body {
+            background: #d0e8f2;
+        }
+    
+        #main {
+            width: 90%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+    
+        div {
+            width: 20%;
+            height: 130px;
+            margin: 10px;
+        }
+    
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 50px;
+        }
+    }
     
